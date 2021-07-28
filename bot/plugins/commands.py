@@ -28,7 +28,7 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = "@Movies_Club_2019",
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
