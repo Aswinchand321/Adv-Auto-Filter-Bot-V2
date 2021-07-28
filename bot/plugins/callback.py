@@ -142,7 +142,7 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code>"
+    text=f"<i>📽️സിനിമകൾ📽️</i> <code>{leng}</code> <i>നിങ്ങൾ ചോദിച്ച സിനിമ ഇതിൽ ഉണ്ട് 👇:</i> <code>{query}</code>"
         
     try:
         await update.message.edit(
@@ -1639,10 +1639,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
+            InlineKeyboardButton('Creator 👨‍🔬', url='https://t.me/Myfreak123'),
             InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Filter-Bot-V2')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('മൂവീസ് ക്ലബ് 2019 🛠', url='https://t.me/Movies_Club_2019')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
